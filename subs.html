@@ -1,28 +1,30 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>My Blog</title>
+        <title>Ruli Sastra Putri</title>
         <link href="https://fonts.googleapis.com/css?family=Handlee" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="style_blog.css">
-        <link src="javascript" type="text/javascript" href="js_blog.js">
+        <link rel="stylesheet" type="text/css" href="subs.css">
+        <link src="javascript" type="text/javascript" href="subs.css">
         <script>
             <link src="javascript" type="text/javascript" href="js_blog"/>
         </script>
     </head>
     
+    <!-- header -->
     <body>
-        <div id="header" class="section">
-            <img alt="" class="img-circle" href="avatar.png">
-            <p>Ruli Sastra Putri</p>
+        <div id="header" class="navigation-bar">
+            <p>PAPER to WRITE</p>
+            <nav>
+                <ul>
+                    <li><a href="Profile">Profile</a></li> 
+                    <li><a href="My Coding Schedule">My Coding Schedule</a></li> 
+                    <li><a href="Contact">Contact Us</a></li> 
+                </ul>
+            </nav>
         </div>
-        <div class="section">
-            <h1><span>About Me</span></h1>
-            <p>
-                Hey! I'm <strong>Ruli Sastra</strong>. Coding has changed my world. It's not just about apps. Learning to code gave me <i>problem-solving skills</i> and a way to communicate with others on a technical level. I can also develop websites thanks to <strong>diCoding</strong> where it gives me the right lesson in Bahasa! have fun, get help, and learn along the way!
-            </p>
-            <p class="quote">"Declare variables, not war"</p>
-        </div>
-        <div class="section">
+
+        <!-- Main  -->
+        <div id="My Coding Schedule" class="section">
             <h1><span>My Coding Schedule</span></h1>
             <table>
                 <tr>
@@ -79,18 +81,38 @@
             <h1><span>My Programming Languages</span></h1>
             <ul>
            <li>Java Script <br />
-                    <progress min="0" max="100" value="100"></progress>
+                    <progress min="0" max="100" value="50"></progress>
                 </li>
-           <li>JQuery<br />
-                    <progress min="0" max="100" value="100"></progress>
+           <li>Golang<br />
+                    <progress min="0" max="100" value="60"></progress>
                 </li>
-        <li>PHP <br />
-                    <progress min="0" max="100" value="100"></progress>
+        <li>CSS<br />
+                    <progress min="0" max="100" value="70"></progress>
                 </li>
            <li>Python <br />
-                    <progress min="0" max="100" value="100"></progress>
+                    <progress min="0" max="100" value="80"></progress>
                 </li>                                                        
             </ul>
+        </div>
+
+        <!-- article -->
+        <div>
+
+        </div>
+        <!-- aside -->
+        <div id="Profile" class="section">
+            <h1><span>Profile</span></h1>
+            <aside>
+                <img alt="rulisastra" class="img-circle" src="https://d17ivq9b7rppb3.cloudfront.net/small/avatar/201611020027180a4cb936dd7cab4fb8447ef342096ef7.jpg">
+                <article>
+                    Hey! You can call me <strong>Ruli</strong>.<br>
+                    This is a new website thanks to <strong>diCoding</strong> where it gives me the right lesson in Bahasa!<br>
+                    Have fun, get help, and learn along the way!<br>
+                    You can contact me at the contact's section below! Feel free to reach out<br>
+                    by phone <strong>0821 3737 1096</strong> or <strong>rulisastra@gmail.com</strong>:)
+                </article>
+                <p class="quote">"Declare variables, not war"</p>
+            </aside>
         </div>
         <div class="section">
             <h1><span>Contact Me</span></h1>
@@ -119,8 +141,10 @@
                 </a>
             </div>
         </div>
-        <div class="copyright">
-            &copy; rulisastra. All rights reserved.
-        </div>
+
+        <!-- footer -->
+        <footer class="copyright">
+           copyright 2021  &copy; rulisastra <br> - take control. life is about making choices -
+        </footer>
       </body>
 </html>

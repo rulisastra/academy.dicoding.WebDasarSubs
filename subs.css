@@ -3,7 +3,7 @@ html {
     padding: 0;
 }
 body {
-    font-family: 'Handlee', cursive;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 13pt;
     background-color: #efefef;
     padding: 10px;
@@ -34,24 +34,48 @@ p {
     margin-bottom: 10px;
     border-radius: 10px;
 }
-#header {
-    background-image: url("https://www.sololearn.com/Uploads/header.jpg");
-    background-size: cover;
+/*Header Menu*/
+.navigation-bar {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
 }
-#header img {
-    display: block;
-    width: 80px;
-    height: 80px;
-    margin: auto;
+
+.navigation-bar ul { 
+    color: #3fb6b2;
+    background: #3fb6b2;
+    box-shadow: 0 0 25px 0,
+    inset 0 0 1px rgba(255, 255, 255, 0.1);
+} 
+
+.navigation-bar li { 
+    display: inline-block; 
+} 
+
+.navigation-bar li a { 
+    color:#FFF;
+    padding:10px;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    display:block;
+} 
+
+.navigation-bar li a:hover { 
+    background-color: #F2C776;
+    padding: 10px;
 }
-#header p {
-    font-size: 25pt;
+
+.navigation-bar p {
+    font-size: 50pt;
+    font-style: initial ;
     color: #3b464c;
     padding-top: 5px;
     margin: 0;
     font-weight: bold;
     text-align: center;
 }
+
 .quote {
     font-size: 12pt;
     text-align: right;
@@ -155,9 +179,10 @@ input, textarea {
 #contacts {
     text-align: center;
 }
+
 .copyright {
-    font-size: 8pt;
-    text-align: right;
+    font-size: 10pt;
+    text-align: center;
     padding-bottom: 10px;
     color: grey;
 }
