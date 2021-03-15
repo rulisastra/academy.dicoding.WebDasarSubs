@@ -5,19 +5,19 @@ html {
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 13pt;
-    background-color: #efefef;
+    background-color: #eabf9f;
     padding: 10px;
     margin: 0;
 }
 h1 {
     font-size: 15pt;
-    color: #20bcd5;
+    color: #1e212d;
     text-align: center;
     padding: 18px 0 18px 0;
     margin: 0 0 10px 0;
 }
 h1 span {
-    border: 4px dashed #20bcd5;
+    border: 4px dashed #E4BAD4;
     padding: 10px;
 }
 p {
@@ -25,53 +25,53 @@ p {
     margin: 0;
 }
 .img-circle {
-    border: 3px solid white;
+    border: 3px solid #E4BAD4;
     border-radius: 50%;
 }
 .section {
-    background-color: #fff;
+    background-color: #faf3e0;
     padding: 15px;
     margin-bottom: 10px;
     border-radius: 10px;
 }
 /*Header Menu*/
 .navigation-bar {
-    background-color: #fff;
-    padding: 15px;
+    background-color: #faf3e0;
+    padding: 10px 10px;
     margin-bottom: 10px;
     border-radius: 10px;
 }
 
 .navigation-bar ul { 
-    color: #3fb6b2;
-    background: #3fb6b2;
+    color: #b68973;
+    background: #b68973; 
+    padding-top: 0px;
     box-shadow: 0 0 25px 0,
     inset 0 0 1px rgba(255, 255, 255, 0.1);
 } 
 
 .navigation-bar li { 
     display: inline-block; 
+    padding-top: 15px;
 } 
 
 .navigation-bar li a { 
-    color:#FFF;
-    padding:10px;
+    color:#1e212d;
+    padding: 10px;
+    border-radius: 5px;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
     display:block;
 } 
 
 .navigation-bar li a:hover { 
-    background-color: #F2C776;
+    background-color: #eabf9f;
     padding: 10px;
 }
 
 .navigation-bar p {
     font-size: 50pt;
-    font-style: initial ;
-    color: #3b464c;
-    padding-top: 5px;
-    margin: 0;
+    color: #1e212d;
     font-weight: bold;
     text-align: center;
 }
@@ -85,15 +85,15 @@ table {
     width: 100%;
 }
 table, th, td {
-    border: 2px solid #cecece;
+    border: 2px solid #eabf9f;
     border-collapse: collapse;
     text-align: center;
     table-layout: fixed;
 }
 .selected {
-    background-color: #f36f48;
+    background-color: #b68973;
     font-weight: bold;
-    color: white;
+    color: 1e212d;
 }
 li {
     margin-bottom: 15px;
@@ -102,14 +102,13 @@ li {
 progress {
     width: 70%;
     height: 20px;
-    color: #3fb6b2;
-    background: #efefef;
+    background: #faf3e0;
 }
 progress::-webkit-progress-bar {
     background: #efefef;
 }
 progress::-webkit-progress-value {
-    background: #3fb6b2;
+    background: #eabf9f;
 } 
 progress::-moz-progress-bar {
     color: #3fb6b2;
@@ -118,19 +117,19 @@ progress::-moz-progress-bar {
 iframe, audio {
     display: block;
     margin: 0 auto;
-    border: 3px solid #3fb6b2;
+    border: 3px solid #faf3e0;
 }
 hr {
     border: 0;
     height: 1px;
-    background: #f36f48;
+    background: #1e212d;
 }
 form {
     text-align: center;
     margin-top: 0;
 }
 .submit {
-    background-color: #3fb6b2;
+    background-color: #b68973;
     padding: 12px 45px;
     border-radius: 5px;
     cursor: pointer;
@@ -141,7 +140,7 @@ form {
     font-weight: bold;
 }
 .submit:hover {
-    background-color: #43a09d;
+    background-color: #eabf9f;
 }
 textarea {
     height: 100px;
@@ -172,6 +171,7 @@ input, textarea {
 }
 #contacts a {
     text-decoration: none;
+    color: #1e212d;
 }
 #contacts img:hover {
     opacity: 0.8;
@@ -184,5 +184,5 @@ input, textarea {
     font-size: 10pt;
     text-align: center;
     padding-bottom: 10px;
-    color: grey;
+    color: 1e212d;
 }
