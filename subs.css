@@ -81,8 +81,6 @@ p {
     display: flex;
 
     /* Properti lainnya */
-    /* width: 800px;
-    height: 250px; */
     background-color: #faf3e0;
     border: 2px solid #eabf9f;
     padding: 1px;
@@ -103,7 +101,10 @@ p {
     width: 700px;
 }
 .second {
-    flex-grow: 3;
+    flex-grow: 1;
+}
+.third {
+    flex-grow: 1;
 }
 
 /* main */
