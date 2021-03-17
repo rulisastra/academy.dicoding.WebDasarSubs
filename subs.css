@@ -90,6 +90,7 @@ p {
 }
 .first                                                                                                                                            {
     flex-grow: 1;
+    text-align: center;
 }
 .second {
     flex-grow: 1;
