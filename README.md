@@ -5,7 +5,7 @@
     - [x] header
     - [x] footer
     - [x] main
-    - [ ] article
+    - [x] article
     - [x] aside
 - Masing-masing elemen wajib berisi konten yang peruntukkannya sesuai dengan elemen tersebut (__menerapkan konsep semantic HTML dalam menyusun struktur website__). Sebagai contoh: 
     - [x] Header berisi judul dan navigation.
@@ -14,6 +14,6 @@
     - [x] Identitas diri wajib ditampilkan dalam elemen <aside>
 ![image](https://user-images.githubusercontent.com/20918862/111073806-c0791b80-8512-11eb-8c0b-1417824e7f3b.png)
 - Menyusun layout dengan menggunakan 
-    - [ ] float atau flexbox.
+    - [x] <s>float</s> atau flexbox.
 - Tema yang ditampilkan bebas, namun semakin detail dan lengkap website Anda maka nilai submission bisa lebih tinggi.
 
