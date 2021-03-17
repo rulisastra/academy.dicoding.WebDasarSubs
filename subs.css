@@ -95,8 +95,15 @@ p {
     flex-grow: 1;
     text-align: center;
 }
+/* it works hahaha for tyding  li in ul */
+.second li {
+    flex-grow: 1;
+    text-align: justify;
+    margin-left: 80px;
+}
 .third {
     flex-grow: 1;
+    text-align: center;
 }
 /* main */
 .quote {
@@ -106,14 +113,14 @@ p {
 }
 table {
     width:100%;
-    /* margin-left: 10px; */
+    margin-left: 10px;
     margin: 30px 0px;
 }
 table, th, td {
     border: 2px solid #eabf9f;
     border-collapse: collapse;
     text-align: center;
-    table-layout: fixed;
+    /* table-layout: fixed; */
 }
 .selected {
     background-color: #b68973;
@@ -123,6 +130,7 @@ table, th, td {
 li {
     margin-bottom: 15px;
     font-weight: bold;
+    /* margin: 0px auto; */
 }
 progress {
     width: 70%;
