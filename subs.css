@@ -81,16 +81,28 @@ p {
     border-radius: 10px;
     margin: 0 auto;
 }
+/* flexbox */
 .box {
     /* properti lainnya */
     background-color: #faf3e0;
-    margin: 5px;
+    margin: 30px;
     border: 2px solid #faf3e0;
     border-radius: 10px;
+    
 }
-.first                                                                                                                                            {
+.first                                                                                                                                         {
     flex-grow: 1;
     text-align: center;
+}
+.first article                                                                                                                                          {
+    flex-grow: 1;
+    text-align: left;
+}
+.first img                                                                                                                                          {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
 .second {
     flex-grow: 1;
@@ -102,9 +114,25 @@ p {
     text-align: justify;
     margin-left: 80px;
 }
+.second img                                                                                                                                          {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
 .third {
     flex-grow: 1;
     text-align: center;
+}
+.third article                                                                                                                                          {
+    flex-grow: 1;
+    text-align: left;
+}
+.third img                                                                                                                                          {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
 }
 /* main */
 .quote {
