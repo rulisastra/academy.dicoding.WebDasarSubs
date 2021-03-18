@@ -73,13 +73,13 @@ p {
 /* flexbox container */
 .container {
     display: flex;
+
     /* Properti lainnya */
     background-color: #faf3e0;
     border: 2px solid #eabf9f;
     padding: 1px;
     border-radius: 10px;
     margin: 0 auto;
-    margin-bottom: 20px;
 }
 /* flexbox */
 .box {

@@ -10,53 +10,24 @@
             <link src="javascript" type="text/javascript" href="js_blog"/>
         </script>
     </head>
-
+    
+    <!-- header -->
     <body>
-        <!-- Header Nav -->
-        <div id="headernav" class="navigation-bar">
+        <div id="header" class="navigation-bar">
             <p>PAPER to WRITE</p>
             <nav>
                 <ul>
-                    <li><a href="content">Article</a></li>
-                    <li><a href="profile">Contact and Profile</a></li> 
+                    <li><a href="development">Development</a></li> 
+                    <li><a href="article">Article</a></li> 
+                    <li><a href="contact">Contact and Profile</a></li> 
                 </ul>
             </nav>
         </div>
+
         <!-- Main  -->
-        <div id="main" class="section">
-            <h1><span>Articles</span></h1>
-            <div id="content" class="container">
-                <div class="box first">
-                    <h1>Astrophysics</h1>
-                    <!-- article -->
-                    <article>
-                        What is the shape of the Universe? If you had come along before the 1800s, it likely never would have occurred to you that the Universe itself could even have a shape. Like everyone else, you would have learned geometry starting from the rules of Euclid, where space is nothing more than a three-dimensional grid. Then you would have applied Newton’s laws of physics and presumed that things like forces between any two objects would act along the one and only straight line connecting that. But we’ve come a long way in our understanding since then, and not only can space itself be curved by the presence of matter and energy, but we can witness those effects. Yet somehow, when it comes to the Universe as a whole, space itself appears indistinguishable from perfectly flat. Why is this?
-                    </article>
-                    <p class="quote">"Carl Sagan"</p>
-                    <img src="https://miro.medium.com/max/945/1*Q5qPjcQ2rb66-aSBNAxZrQ.jpeg" alt="Universe is flat?">
-                </div>
-                <div class="box Second">
-                    <h1>Roadmap</h1>
-                    <article>
-                        When I started my Web-Development journey, getting overwhelmed by so many topics is what I used to face all the time, there is always something new that I have to learn while having no idea about what I should learn. I can assure you must have faced this issue if you are getting started in Programming or Web-Development, so I decided to prepare a roadmap for beginners who are looking to get into Web-Development, from my own experience I can assure, it gets harder if you have undecided goals about what you need to build with your skills, so make sure you always have a proper goal about where you want to apply these skills, otherwise, the learning path never ends for a developer.
-                    </article>
-                    <p class="quote">"Uncle Bob"</p>
-                    <!-- <img src="https://miro.medium.com/max/1500/1*_wZhhTstI_DCebB2fK2c5g.png" alt="Roadmap"> -->
-                </div>
-                <div class="box third">
-                    <h1>Web Development</h1>
-                    <article>
-                        Web Development is an ever-changing field — the way we build websites today is completely different from how we used to do it a couple of years ago. With the plethora of tools available and the new ones popping up every day, most of the time developers find themselves confused about which way to go.
-                    </article>
-                    <p class="quote">"Coding Ninjas"</p>
-                    <!-- <img src="https://miro.medium.com/max/945/0*lisqovim7vp54EKH" alt="Web"> -->
-                </div>
-            </div>
-        </div>
-        <div id="profile" class="section">
-            <h1><span>Profiles and Contact</span></h1>
-            <!-- content -->
-            <div id="content" class="container">
+        <div id="development" class="section">
+            <h1><span>Development</span></h1>
+            <div class="container">
                 <div class="box first">
                     <h1>My Coding Schedule</h1>
                     <table>
@@ -128,6 +99,43 @@
                     </ul>
                 </div>
             </div>
+        </div>
+
+        <!-- article -->
+        <!-- TODO -->
+        <div id="article" class="section">
+            <h1><span>Articles</span></h1>
+            <div class="container">
+                <div class="box first">
+                    <!-- gimana carannya bisa fixed pbox di flexbox -->
+                    <h1>Astrophysics</h1>
+                    <article>
+                        What is the shape of the Universe? If you had come along before the 1800s, it likely never would have occurred to you that the Universe itself could even have a shape. Like everyone else, you would have learned geometry starting from the rules of Euclid, where space is nothing more than a three-dimensional grid. Then you would have applied Newton’s laws of physics and presumed that things like forces between any two objects would act along the one and only straight line connecting that. But we’ve come a long way in our understanding since then, and not only can space itself be curved by the presence of matter and energy, but we can witness those effects. Yet somehow, when it comes to the Universe as a whole, space itself appears indistinguishable from perfectly flat. Why is this?
+                    </article>
+                    <p class="quote">"Carl Sagan"</p>
+                    <img src="https://miro.medium.com/max/945/1*Q5qPjcQ2rb66-aSBNAxZrQ.jpeg" alt="Universe is flat?">
+                </div>
+                <div class="box Second">
+                    <h1>Roadmap</h1>
+                    <article>
+                        When I started my Web-Development journey, getting overwhelmed by so many topics is what I used to face all the time, there is always something new that I have to learn while having no idea about what I should learn. I can assure you must have faced this issue if you are getting started in Programming or Web-Development, so I decided to prepare a roadmap for beginners who are looking to get into Web-Development, from my own experience I can assure, it gets harder if you have undecided goals about what you need to build with your skills, so make sure you always have a proper goal about where you want to apply these skills, otherwise, the learning path never ends for a developer.
+                    </article>
+                    <p class="quote">"Uncle Bob"</p>
+                    <!-- <img src="https://miro.medium.com/max/1500/1*_wZhhTstI_DCebB2fK2c5g.png" alt="Roadmap"> -->
+                </div>
+                <div class="box third">
+                    <h1>Web Development</h1>
+                    <article>
+                        Web Development is an ever-changing field — the way we build websites today is completely different from how we used to do it a couple of years ago. With the plethora of tools available and the new ones popping up every day, most of the time developers find themselves confused about which way to go.
+                    </article>
+                    <p class="quote">"Coding Ninjas"</p>
+                    <!-- <img src="https://miro.medium.com/max/945/0*lisqovim7vp54EKH" alt="Web"> -->
+                </div>
+            </div>
+        </div>
+
+        <div id="contact" class="section">
+            <h1><span>Contact and Profile</span></h1>
             <div id="contact" class="container">
                 <!-- aside -->
                 <div class="box first">
@@ -162,6 +170,7 @@
                 </div>
             </div>
         </div>
+
         <!-- footer -->
         <footer class="copyright">
            copyright 2021  &copy; rulisastra <br> - take control. life is about making choices -
