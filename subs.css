@@ -9,31 +9,6 @@ body {
     padding: 10px;
     margin: 0;
 }
-h1 {
-    font-size: 15pt;
-    color: #1e212d;
-    text-align: center;
-    padding: 18px 0 18px 0;
-    margin: 0 0 10px 0;
-}
-h1 span {
-    border: 4px dashed #E4BAD4;
-    padding: 10px;
-}
-p {
-    padding: 0;
-    margin: 0;
-}
-.img-circle {
-    border: 3px solid #E4BAD4;
-    border-radius: 50%;
-}
-.section {
-    background-color: #faf3e0;
-    padding: 15px;
-    margin-bottom: 10px;
-    border-radius: 10px;
-}
 /*Header Menu*/
 .navigation-bar {
     background-color: #faf3e0;
@@ -59,6 +34,7 @@ p {
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
     display:block;
+    font-size: 20px;
 } 
 .navigation-bar li a:hover { 
     background-color: #eabf9f;
@@ -70,71 +46,79 @@ p {
     font-weight: bold;
     text-align: center;
 }
-/* flexbox container */
-.container {
-    display: flex;
-    /* Properti lainnya */
+/* main */
+h1 {
+    font-size: 15pt;
+    color: #1e212d;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+h1 span {
+    border: 4px dashed #E4BAD4;
+    padding: 10px;
+}
+h3 {
+    font-size: 15pt;
+    color: #1e212d;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+p {
+    padding: 0;
+    margin: 0;
+    text-align: left;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+.img-circle {
+    border: 3px solid #E4BAD4;
+    border-radius: 50%;
+}
+.articles {
+    background-color: #b68973;
+    margin: 5px;
+}
+#content {
+    float: left;
+    width: 75%;
+ }
+aside {
+    float: right;
+    width: 25%;
+
+}
+/* section */
+.section {
     background-color: #faf3e0;
-    border: 2px solid #eabf9f;
-    padding: 1px;
+    padding: 15px;
+    margin-bottom: 10px;
     border-radius: 10px;
-    margin: 0 auto;
-    margin-bottom: 20px;
 }
 /* flexbox */
 .box {
     /* properti lainnya */
     background-color: #faf3e0;
-    margin: 30px;
-    border: 2px solid #faf3e0;
+    margin: 10px;
     border-radius: 10px;
+    padding: 30px;
+    text-align: justify;
     
 }
 .first                                                                                                                                         {
     flex-grow: 1;
-    text-align: center;
-}
-.first article                                                                                                                                          {
-    flex-grow: 1;
-    text-align: left;
-}
-.first img                                                                                                                                          {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
 }
 .second {
     flex-grow: 1;
-    text-align: center;
-}
-/* it works hahaha for tyding  li in ul */
-.second li {
-    flex-grow: 1;
-    text-align: justify;
-    margin-left: 80px;
-}
-.second img                                                                                                                                          {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 10%;
 }
 .third {
     flex-grow: 1;
-    text-align: center;
 }
-.third article                                                                                                                                          {
-    flex-grow: 1;
-    text-align: left;
-}
-.third img                                                                                                                                          {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-}
-/* main */
 .quote {
     font-size: 12pt;
     text-align: right;
@@ -161,6 +145,7 @@ li {
     font-weight: bold;
     /* margin: 0px auto; */
 }
+/* progress */
 progress {
     width: 70%;
     height: 20px;
@@ -218,19 +203,6 @@ input, textarea {
     width: 70%;
     outline: none;
 }
-.face {
-    transform: scale(0.4);
-    margin: 0 auto;
-    display: block;
-    margin-top: -35px;
-    margin-bottom: -25px;
-}
-#contacts img {
-    height: 50px;
-    width: 50px;
-    margin-left: 7px;
-    margin-right: 7px;
-}
 #contacts a {
     text-decoration: none;
     color: #1e212d;
@@ -241,7 +213,7 @@ input, textarea {
 #contacts {
     text-align: center;
 }
-.copyright {
+footer {
     font-size: 10pt;
     text-align: center;
     padding-bottom: 10px;
@@ -254,6 +226,6 @@ input, textarea {
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
-    color: #3fb6b2;
+    color: #1e212d;
     background-color: #eabf9f;
   }
