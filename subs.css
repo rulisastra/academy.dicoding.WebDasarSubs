@@ -14,7 +14,8 @@ body {
     background-color: #faf3e0;
     padding: 10px 10px;
     margin-bottom: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
+    border: 1px outset #1e212d;
 }
 .navigation-bar ul { 
     color: #b68973;
@@ -48,13 +49,24 @@ body {
 }
 /* main */
 h1 {
+    font-size: 35pt;
+    color: #b68973;
+    text-align: center;
+    padding: 18px 0 18px 0;
+    margin: 0 0 10px 0;
+}
+h1 span {
+    border: 4px dashed #E4BAD4;
+    padding: 10px;
+}
+h2 {
     font-size: 15pt;
     color: #1e212d;
     text-align: center;
     padding: 18px 0 18px 0;
     margin: 0 0 10px 0;
 }
-h1 span {
+h2 span {
     border: 4px dashed #E4BAD4;
     padding: 10px;
 }
@@ -80,10 +92,6 @@ img {
     border: 3px solid #E4BAD4;
     border-radius: 50%;
 }
-.articles {
-    background-color: #b68973;
-    margin: 5px;
-}
 #content {
     float: left;
     width: 75%;
@@ -95,10 +103,23 @@ aside {
 }
 /* section */
 .section {
-    background-color: #faf3e0;
+    background-color: #b68973;
     padding: 15px;
-    margin-bottom: 10px;
-    border-radius: 10px;
+    margin: 1px;
+    border-radius: 30px;
+}
+.articles {
+    background-color: #b68973;
+    margin: 5px;
+    border-radius: 30px;
+    box-shadow: 0 0 25px 0,
+    inset 0 0 1px rgba(255, 255, 255, 0.1);
+}
+.sectiontitle {
+    margin: 5px 90px;
+    background-color: #faf3e0;
+    border-radius: 20px;
+    margin-top: 20px;
 }
 /* flexbox */
 .box {
@@ -214,10 +235,12 @@ input, textarea {
     text-align: center;
 }
 footer {
-    font-size: 10pt;
-    text-align: center;
-    padding-bottom: 10px;
-    color: 1e212d;
+    color: #b68973;
+    background: #b68973; 
+    padding-top: 0px;
+    box-shadow: 0 0 25px 0,
+    inset 0 0 1px rgba(255, 255, 255, 0.1);
+    text-align: left;
 }
 .fa {
     padding: 20px;
@@ -227,5 +250,5 @@ footer {
     text-decoration: none;
     border-radius: 50%;
     color: #1e212d;
-    background-color: #eabf9f;
+    background-color: #1e212d;
   }
