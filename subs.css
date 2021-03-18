@@ -98,10 +98,13 @@ img {
  }
 aside {
     float: right;
-    width: 25%;
-
+    width: 24%;
 }
 /* section */
+.bodyy {
+    background-color: #b68973;
+    margin: 5px;
+}
 .section {
     background-color: #b68973;
     padding: 15px;
@@ -250,5 +253,5 @@ footer {
     text-decoration: none;
     border-radius: 50%;
     color: #1e212d;
-    background-color: #1e212d;
+    background-color: #eabf9f;
   }
