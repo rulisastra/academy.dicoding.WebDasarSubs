@@ -16,3 +16,5 @@
     - [x] <s>float</s> atau flexbox.
 - Tema yang ditampilkan bebas, namun semakin detail dan lengkap website Anda maka nilai submission bisa lebih tinggi.
 
+![image](https://user-images.githubusercontent.com/20918862/111857621-5a065a00-8965-11eb-97bc-0aab80affa98.png)
+![image](https://user-images.githubusercontent.com/20918862/111857676-a05bb900-8965-11eb-9449-521744d7a1d1.png)
